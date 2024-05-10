@@ -44,15 +44,15 @@ figure{ text-align: center; margin: 0; }
 svg,img { max-width: 100%; height: auto; }
 .ds-boder_text{ position: relative; display: inline-block; }
 .ds-boder_text span{ position: relative; z-index: 1 }
-.ds-boder_text:after{ content: ""; position: absolute; bottom: 0; left: 0; background-color:#A6F3E7; height: 0.9375rem; width:100%;}
+.ds-boder_text:after{ content: ""; position: absolute; bottom: 0; left: 0; background-color:#fecbf1; height: 0.9375rem; width:100%;}
 .margin-60{ margin-bottom: var(--margin-60);  }
 .padding-0{ padding-top: 0 }
 .ds-view-button{font-weight: 600; font-size: 1rem; color: #000}
-.ds-view-button i{ display: inline-block; vertical-align: middle; color: #00B7CC; font-size: 1.625rem; }
-.ds-view-button:hover{color: #00B7CC; }
+.ds-view-button i{ display: inline-block; vertical-align: middle; color: #eb6edc; font-size: 1.625rem; }
+.ds-view-button:hover{color: #eb6edc; }
 .text-left{ text-align: left; }
-.ds-arrow {background: #00B7CC;height:0.125rem;width:3.125rem;position: relative;cursor: pointer; display: inline-block; vertical-align: middle;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; margin-left:0.5rem}
-.ds-arrow:before, .ds-arrow:after {content: "";background: #00B7CC;position: absolute;height:0.125rem;width:0.8125rem;}
+.ds-arrow {background: #eb6edc;height:0.125rem;width:3.125rem;position: relative;cursor: pointer; display: inline-block; vertical-align: middle;transition-delay: 0s;transition-duration: 0.4s;transition-property: all;transition-timing-function: ease; margin-left:0.5rem}
+.ds-arrow:before, .ds-arrow:after {content: "";background: #eb6edc;position: absolute;height:0.125rem;width:0.8125rem;}
 .ds-arrow:before {right: -0.25rem;bottom: -0.25rem;transform: rotate(-45deg);}
 .ds-arrow:after {right: -0.25rem;top: -0.25rem;transform: rotate(45deg);}
 .ds-button-arrow:hover .ds-arrow{ margin-left:0.9375rem }
@@ -70,13 +70,13 @@ svg,img { max-width: 100%; height: auto; }
 ----------------------------------------------------------------*/
 .ds-banner-section{ text-align: left; margin-bottom: var(--margin-120);  }
 .ds-heading,.ds-heading-inner{ font-size: 4.375rem; line-height:6rem; margin-bottom:3.1875rem;}
-.ds-heading span{ border-bottom:15px solid #A6F3E7  }
+.ds-heading span{ border-bottom:15px solid #fecbf1  }
 
 
 .ds-banner-section figure{ margin-bottom: var(--margin-54) }
 .ds-banner-section p{font-size:var(--font_16);line-height:var(--30); margin-bottom: var(--30); }
-.ds-button{ display: inline-block; text-transform: uppercase; color: #FFF; background-color: #45CD86; border-radius:var(--font_50); padding:1.125rem 3.625rem; font-weight: 700; letter-spacing: 1px }
-.ds-button:hover{ color: #FFF; background-color:#3bb173  }
+.ds-button{ display: inline-block; text-transform: uppercase; color: #FFF; background-color: #cd45b6; border-radius:var(--font_50); padding:1.125rem 3.625rem; font-weight: 700; letter-spacing: 1px }
+.ds-button:hover{ color: #FFF; background-color:#cd45b6  }
 .ds-content-width p{ width:900px }
 
 /*.ds-project-list{ display: grid;grid-template-columns: auto auto; margin:0 -0.75rem}*/
@@ -91,7 +91,7 @@ svg,img { max-width: 100%; height: auto; }
   3. >>> About Style
 ----------------------------------------------------------------*/
 .ds-proj-hedding{ font-size:1.8rem; margin-bottom:0.5rem;font-family: 'Inter', sans-serif; font-weight: 600; }
-.ds-proj-hedding span{ border-bottom:10px solid #A6F3E7  }
+.ds-proj-hedding span{ border-bottom:10px solid #fecbf1  }
 .ds-tools{ font-weight:200; font-size: 1.125rem; display: block; }
 .ds-about-section{ margin-top:8.8125rem }
 .ads-bout-section .ds-heading-inner,.ds-back-home{ margin-bottom: var(--margin-54) }
@@ -115,8 +115,8 @@ table {border-collapse: collapse; margin-bottom: 20px; width: 100%; }
 .ds-tools{ font-weight: 700 }
 .ds-case-studies-list p{ font-size: 3rem; line-height:var(--font_36); margin-bottom: 3rem }
 .ds-view-button{font-weight: 600; font-size: 1rem; color: #000}
-.ds-view-button i{ display: inline-block; vertical-align: middle; color: #00B7CC; font-size: 1.625rem; }
-.ds-view-button:hover{color: #00B7CC; }
+.ds-view-button i{ display: inline-block; vertical-align: middle; color: #eb6edc; font-size: 1.625rem; }
+.ds-view-button:hover{color: #eb6edc; }
 
 .ds-case-studies-details{ padding-bottom: 5.25rem; }
 .ds-case-studies-details .ds-case-studies-list{ margin-bottom: 3rem; }
